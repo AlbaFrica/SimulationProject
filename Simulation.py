@@ -2,8 +2,6 @@
 import random
 
 # get popluation counts from user - Jenaka
-prey = 
-predator = 
 
 # start loop - Jenaka
 
@@ -20,3 +18,5 @@ predator =
   # resolve predator births and deaths (Joseph)
   
   # print outputs (Melody)
+  
+  # ask user if program should continue for another 10 years

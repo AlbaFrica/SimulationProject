@@ -2,7 +2,7 @@
 import random
 
 # get popluation counts from user - Jenaka
-prey = 
+prey = 3928958
 predator = 
 # start loop - Jenaka
 

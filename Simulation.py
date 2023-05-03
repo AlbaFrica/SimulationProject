@@ -8,7 +8,7 @@ predator =
 
   # find ratio (Melody)
   
-  # use ratio to find difficulty (Joseph)
+  # use ratio to find difficulty (Joseph) *************
   
   # generate hunt success modifier (Joseph)
   

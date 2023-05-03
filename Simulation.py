@@ -1,10 +1,11 @@
-# import random library
+# import random library - Jenaka
+import random
 
-# get popluation counts from user
+# get popluation counts from user - Jenaka
 
-# start loop
+# start loop - Jenaka
 
-  # find ratio
+  # find ratio (Melody)
   
   # use ratio to find difficulty (Joseph)
   
@@ -12,8 +13,8 @@
   
   # find number of killed prey (Joseph)
   
-  # resolve prey births and deaths
+  # resolve prey births and deaths(Melody)
   
   # resolve predator births and deaths (Joseph)
   
-  # print outputs
+  # print outputs (Melody)

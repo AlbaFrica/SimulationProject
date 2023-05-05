@@ -20,7 +20,9 @@ while shouldContinue == True
   # resolve prey births and deaths(Melody)
   
   # resolve predator births and deaths (Joseph)
-  
+  global predator
+  predator += predator * random.randint(20, 35)/100+1
+  predator -= 
   # print outputs (Melody)
   
   # advance time
@@ -30,4 +32,7 @@ while shouldContinue == True
   if year % 10 == 0:
     ask = input("Would you like to continue the simulation for another 10 years? (y/n) ")
     if ask == "y":
+      shouldContinue = True
+    else:
       shouldContinue = False
+    

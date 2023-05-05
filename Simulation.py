@@ -1,9 +1,12 @@
 # import random library - Jenaka
 import random
 
+# initialize year count
+year = 0
+
 # get popluation counts from user - Jenaka
-prey = 
-predator = 
+prey = input("How many prey are in the ecosystem? \(RECOMMENDED TO BE IN THE UPPER 100 000s\)")
+predator = input("How many predators are in the ecosystem? \(RECOMMENDED TO BE IN THE LOWER 1000s\)")
 # start loop - Jenaka
 
   # find ratio (Melody)
@@ -19,5 +22,7 @@ predator =
   # resolve predator births and deaths (Joseph)
   
   # print outputs (Melody)
+  
+  # advance time 
   
   # ask user if program should continue for another 10 years

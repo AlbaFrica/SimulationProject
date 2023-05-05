@@ -24,8 +24,10 @@ while shouldContinue == True
   predator += predator * random.randint(20, 35)/100+1
   predator -= 
   # print outputs (Melody)
-  
-  # advance time
+  print("There are currently " + str(prey) + " left.")
+  print("There are currently " + str(predator) + "left.")
+  print(ratio)
+    # advance time
   global year
   year +=1
   # ask user if program should continue for another 10 years

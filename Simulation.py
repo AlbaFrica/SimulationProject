@@ -10,7 +10,7 @@ predator = input("How many predators are in the ecosystem? \(RECOMMENDED TO BE I
 # start loop - Jenaka
 
   # find ratio (Melody)
-  
+  ratio = prey / predator
   # use ratio to find difficulty (Joseph)
   difficulty = ((ratio - 350)/20)+1
   # generate hunt success modifier (Joseph)

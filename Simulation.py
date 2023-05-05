@@ -9,11 +9,11 @@ predator =
   # find ratio (Melody)
   
   # use ratio to find difficulty (Joseph)
-  
+  difficulty = ((ratio - 350)/20)+1
   # generate hunt success modifier (Joseph)
-  
+  successModifier = random.randint(85, 115)/100
   # find number of killed prey (Joseph)
-  
+  hunted = (predators * successModifier) * (17.5 * difficulty)
   # resolve prey births and deaths(Melody)
   
   # resolve predator births and deaths (Joseph)

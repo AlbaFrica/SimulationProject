@@ -1,14 +1,14 @@
 # import random library - Jenaka
 import random
 
-# initialize year count
+# setup passage of time and loop
 year = 0
-
+shouldContinue = True
 # get popluation counts from user - Jenaka
-prey = input("How many prey are in the ecosystem? \(RECOMMENDED TO BE IN THE UPPER 100 000s\)")
-predator = input("How many predators are in the ecosystem? \(RECOMMENDED TO BE IN THE LOWER 1000s\)")
+prey = input("How many prey are in the ecosystem? \(RECOMMENDED TO BE IN THE UPPER 100 000s\) ")
+predator = input("How many predators are in the ecosystem? \(RECOMMENDED TO BE IN THE LOWER 1000s\) ")
 # start loop - Jenaka
-
+while shouldContinue == True
   # find ratio (Melody)
   ratio = prey / predator
   # use ratio to find difficulty (Joseph)
@@ -23,6 +23,11 @@ predator = input("How many predators are in the ecosystem? \(RECOMMENDED TO BE I
   
   # print outputs (Melody)
   
-  # advance time 
-  
+  # advance time
+  global year
+  year +=1
   # ask user if program should continue for another 10 years
+  if year % 10 == 0:
+    ask = input("Would you like to continue the simulation for another 10 years? (y/n) ")
+    if ask == "y":
+      shouldContinue = False

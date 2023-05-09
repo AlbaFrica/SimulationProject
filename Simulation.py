@@ -15,7 +15,7 @@ while shouldContinue == True:
   # advance time
   year +=1
 
-  # find ratio (Melody)
+  # find ratio 
   ratio = prey / predator
   print("The starting ratio is " + str(ratio))
   
